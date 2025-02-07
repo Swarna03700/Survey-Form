@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  body {
+    height: 100vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    /* background-image: url("pexels-asphotograpy-96627.jpg"); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(4, 95, 13, 0.726), rgba(15, 158, 10, 0.622)),url('pexels-asphotograpy-96627.jpg');
+    color: white;
+    
+  }
+  
+  h1, p {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  form {
+    width: 60%;
+    min-width: 300px;
+    max-width: 700px;
+    margin: 1rem auto;
+    background-color: rgba(8, 48, 3, 0.649);
+    padding: 20px 10px;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin: 1em;
+    
+  }
+  input{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  #name, #email, #number {
+    
+    padding: 0;
+    height: 2rem;
+  }
+  
+  #dropdown {
+    margin-top: 10px;
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+  }
+  input[type="radio"] {
+    width: unset;
+    
+  }
+  input[type="checkbox"] {
+    width: unset;
+    
+  }
+  textarea {
+    min-height: 5em;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  #submit {
+    border: 0;
+    width: 100%;
+    margin-top: 1em;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: rgb(9, 20, 62);
+    color: white;
+    border-radius: 5px;
+  }
+  
+  
